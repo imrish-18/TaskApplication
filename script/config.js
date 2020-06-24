@@ -73,6 +73,7 @@ connect(connectionUrl,{useNewUrlParser:true},(error,client)=>{
     if(error)
     return console.log('unable to connect to database')
 const db=client.db(dataBaseName)
+
 //deletemany or we can use deleteone to delete one entry from db
 db.collection('users').deleteMany({
 name:'jason roy'   }
