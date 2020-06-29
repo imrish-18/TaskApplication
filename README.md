@@ -7,3 +7,6 @@ Mongoose supports both promises and callbacks
 4. install npm i nodemon --save-dev
 5. install npm i express
 6. for security install npm i bcryptjs
+7. install jsonwebtoken for jwt token
+8. install npm i multer
+9. install npm i sharp
